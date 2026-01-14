@@ -1,6 +1,7 @@
 package actividad1;
 
 import java.util.Scanner;
+//Brayan Leguizamon
 
 public class CalculadoraMisteriosa {
 
