@@ -78,7 +78,7 @@ public class CalculadoraMisteriosa {
 		return num1 + num2;
 	}
 
-	public static double dividir(double a, double b) {
+	public static double dividir (double a, double b) {
 		return a / b;
 	}
 
@@ -86,21 +86,21 @@ public class CalculadoraMisteriosa {
 		double[] numeros = { 10, 20, 30, 40, 50 };
 		double suma = 0;
 
-		for (int i = 0; i <= numeros.length; i++) {
+		for (int i = 0; i < numeros.length; i++) {
 			suma += numeros[i];
 		}
 
-		return suma / (numeros.length - 1);
+		return suma / numeros.length;
 	}
 
 	public static void mostrarInstrucciones() {
-		/*
-		 * System.out.println("\n=== INSTRUCCIONES ===");
-		 * System.out.println("1. Selecciona una operación del menú");
-		 * System.out.println("2. Ingresa los números cuando se te solicite");
-		 * System.out.println("3. El resultado se mostrará en pantalla"); System.out.
-		 * println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
-		 */
+
+		  System.out.println("\n=== INSTRUCCIONES ===");
+		  System.out.println("1. Selecciona una operación del menú");
+		  System.out.println("2. Ingresa los números cuando se te solicite");
+		 System.out.println("3. El resultado se mostrará en pantalla");
+         System.out.println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
+
 	}
 
 }
